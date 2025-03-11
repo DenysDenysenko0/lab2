@@ -19,6 +19,10 @@ def avgsimple(x, y):
 
 # Введення значень користувачем
 m = int(input("Введіть m: "))
+while (m < 0):
+    print("m не може бути меншим за 0!")
+    m = int(input("Введіть ще раз m: "))
+
 x = int(input("Введіть x: "))
 y = int(input("Введіть y: "))
 
